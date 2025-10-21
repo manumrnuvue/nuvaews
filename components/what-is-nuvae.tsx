@@ -44,13 +44,13 @@ export function WhatIsNuvae() {
                 className="text-[clamp(2.25rem,1.5rem+2.5vw,3rem)] font-bold text-[#1E2430] tracking-[-0.015em] leading-[1.15]"
                 style={{ fontFamily: "var(--font-heading)", textWrap: "balance" }}
               >
-                Why Nuvae works for hospitals
+                Why Nuvae works for healthcare providers
               </h2>
               <p
                 className="text-[1.125rem] text-gray-700 opacity-85 max-w-[60ch] mx-auto leading-[1.65]"
                 style={{ textWrap: "pretty" }}
               >
-                Built specifically for US hospital providers, Nuvae integrates with your existing systems and enhances
+                Built specifically for US healthcare providers, Nuvae integrates with your existing systems and enhances
                 your team's capabilities across the entire revenue cycle.
               </p>
             </div>
