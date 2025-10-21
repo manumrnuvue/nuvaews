@@ -49,7 +49,7 @@ export function HeroSection() {
               AI agents that unify
               <br />
               <span className="bg-gradient-to-r from-[#FF5F5F] to-[#4C8CFF] bg-clip-text text-transparent drop-shadow-lg">
-                hospital revenue cycle
+                Healthcare organizations revenue cycle
               </span>
             </h1>
 
@@ -57,7 +57,7 @@ export function HeroSection() {
               className="text-[clamp(1.125rem,1rem+0.5vw,1.25rem)] text-gray-200 opacity-85 max-w-[60ch] mx-auto leading-[1.65]"
               style={{ textWrap: "pretty" }}
             >
-              Nuvae connects Business Office, Case Management, and Admitting with intelligent agents - so your hospital
+              Nuvae connects Business Office, Case Management, and Admitting with intelligent agents - so your Healthcare organization
               submits cleaner claims, reduces rejections, and accelerates payments.
             </p>
 
