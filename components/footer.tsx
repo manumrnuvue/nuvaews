@@ -21,10 +21,10 @@ export function Footer() {
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-sm text-gray-500">© 2025 Nuvae.ai. All rights reserved.</div>
             <div className="flex gap-6 text-sm">
-              <a href="#" className="text-gray-400 hover:text-[#4C8CFF] transition-colors">
+              <a href="terms.html" className="text-gray-400 hover:text-[#4C8CFF] transition-colors" target="_blank">
                 Privacy Policy
               </a>
-              <a href="#" className="text-gray-400 hover:text-[#4C8CFF] transition-colors">
+              <a href="privacy.html" className="text-gray-400 hover:text-[#4C8CFF] transition-colors" target="_blank">
                 Terms of Use
               </a>
             </div>
