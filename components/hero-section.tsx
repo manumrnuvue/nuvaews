@@ -49,7 +49,8 @@ export function HeroSection() {
               AI agents that unify
               <br />
               <span className="bg-gradient-to-r from-[#FF5F5F] to-[#4C8CFF] bg-clip-text text-transparent drop-shadow-lg">
-                healthcare organizations revenue cycle
+                healthcare organizations <br />
+ revenue cycle
               </span>
             </h1>
 
