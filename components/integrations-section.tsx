@@ -21,7 +21,7 @@ export function IntegrationsSection() {
     {
       icon: Settings,
       title: "Customizable workflows",
-      description: "Tailored to your hospital's needs",
+      description: "Tailored to your needs",
       accent: "from-[#B794F6]/10 to-[#B794F6]/5",
     },
   ]
@@ -46,7 +46,7 @@ export function IntegrationsSection() {
                 <div className="relative aspect-[4/3]">
                   <Image
                     src="/it-expert-helping-hospital-staff-setup-ehr-system-c.jpg"
-                    alt="IT expert helping hospital staff with system implementation"
+                    alt="IT expert helping healthcare staff with system implementation"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                     loading="lazy"
@@ -67,7 +67,7 @@ export function IntegrationsSection() {
                     Seamless Implementation
                   </h2>
                   <p className="text-[1.125rem] text-gray-700 opacity-85 leading-[1.65]" style={{ textWrap: "pretty" }}>
-                    Built for US hospital providers. We integrate with your hospital systems through FHIR, HL7, APIs,
+                    Built for US providers and hospitals. We integrate with your healthcare systems through FHIR, HL7, APIs,
                     and secure file flows.
                   </p>
                 </div>
