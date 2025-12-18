@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { Manrope, Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
-import TawkTo from "@components/tawk";
+import TawkTo from "@/components/tawk";
 
 const manrope = Manrope({
   subsets: ["latin"],
