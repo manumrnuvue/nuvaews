@@ -27,6 +27,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+
+  return (
+    <html lang="en" className={`${manrope.variable} ${inter.variable}`}>
+      <head>
+        <script>
                   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
                   (function(){
                   var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -36,9 +41,8 @@ export default function RootLayout({
                   s1.setAttribute('crossorigin','*');
                   s0.parentNode.insertBefore(s1,s0);
                   })();
-  return (
-    <html lang="en" className={`${manrope.variable} ${inter.variable}`}>
-      
+        </script>
+      </head>
       <body className={`font-sans antialiased`}>
         
         {children}
