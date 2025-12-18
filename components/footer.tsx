@@ -2,17 +2,7 @@ import Image from "next/image"
 
 export function Footer() {
   return (
-        <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src="https://embed.tawk.to/6938fda08465ad197f9bc106/1jc39tfla";
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
+
     <footer className="bg-[#0F1419] text-gray-400 py-16">
       <div className="container px-4 mx-auto">
         <div className="max-w-6xl mx-auto">
