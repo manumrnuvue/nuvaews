@@ -27,6 +27,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+                  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+                  (function(){
+                  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                  s1.async=true;
+                  s1.src="https://embed.tawk.to/6938fda08465ad197f9bc106/1jc39tfla";
+                  s1.charset='UTF-8';
+                  s1.setAttribute('crossorigin','*');
+                  s0.parentNode.insertBefore(s1,s0);
+                  })();
   return (
     <html lang="en" className={`${manrope.variable} ${inter.variable}`}>
       
@@ -34,17 +43,6 @@ export default function RootLayout({
         
         {children}
         <Analytics />
-                <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src="https://embed.tawk.to/6938fda08465ad197f9bc106/1jc39tfla";
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
       </body>
     </html>
   )
