@@ -27,7 +27,7 @@ export async function submitDemoRequest(formData: FormData) {
 
   try {
     // Check if RESEND_API_KEY is configured
-    const resendApiKey = "re_jHg5D24D_E3fDrSKDUTYfJ7xhiMv3bY1D"
+    const resendApiKey = process.env.RESEND_API_KEY
 
     if (!resendApiKey) {
       // Log the submission for now (in production, you'd want to store this in a database)
