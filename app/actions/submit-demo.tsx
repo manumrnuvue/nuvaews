@@ -56,7 +56,7 @@ export async function submitDemoRequest(formData: FormData) {
         Authorization: `Bearer ${resendApiKey}`,
       },
       body: JSON.stringify({
-        from: "Nuvae.ai <onboarding@resend.dev>", // Replace with your verified domain
+        from: "manu@nuvae.ai>", // Replace with your verified domain
         to: ["manu@nuvae.ai"], // Updated recipient email to manu@nuvae.ai
         subject: `New Demo Request from ${name} at ${company}`,
         html: `
