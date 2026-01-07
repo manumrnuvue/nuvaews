@@ -57,7 +57,7 @@ export async function submitDemoRequest(formData: FormData) {
       },
       body: JSON.stringify({
         from: "Nuvae.ai <onboarding@resend.dev>", // Replace with your verified domain
-        to: ["manu@nuvae.ai"], // Updated recipient email to rajeev@nuvae.ai
+        to: ["manu@nuvae.ai"], // Updated recipient email to manu@nuvae.ai
         subject: `New Demo Request from ${name} at ${company}`,
         html: `
           <h2>New Demo Request</h2>
