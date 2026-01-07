@@ -6,7 +6,7 @@ import Link from "next/link"
 import Image from "next/image"
 
 export const metadata: Metadata = {
-  title: "Book a Demo - Nuvae.ai",
+  title: "Book a Demo with Nuvae.ai",
   description: "Schedule a personalized demo of Nuvae.ai's AI-powered revenue cycle management platform.",
 }
 
